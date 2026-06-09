@@ -260,3 +260,7 @@ body {
 .footer i {
   color: #ff6b6b;
 }
+.search-box input::selection {
+  background: #f5576c;
+  color: white;
+}

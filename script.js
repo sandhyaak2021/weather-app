@@ -144,5 +144,10 @@ document.getElementById("city-input").addEventListener("keypress", function(e) {
   }
 });
 
+// Auto highlight text when clicking search box
+document.getElementById("city-input").addEventListener("click", function() {
+  this.select();
+});
+
 // Load default city
 getWeather("Chennai");
