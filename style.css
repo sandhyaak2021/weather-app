@@ -73,6 +73,15 @@ body {
   background: rgba(255,255,255,0.9);
   outline: none;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+}
+
+.search-box input:focus {
+  outline: 3px solid white;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  transform: scale(1.02);
+  transition: all 0.3s;
 }
 
 .search-box button {
@@ -236,4 +245,18 @@ body {
 .forecast-card .temp {
   font-size: 15px;
   font-weight: 700;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  padding: 16px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.footer i {
+  color: #ff6b6b;
 }
